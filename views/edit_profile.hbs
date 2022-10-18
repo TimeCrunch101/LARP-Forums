@@ -1,0 +1,137 @@
+<h2>Your Profile</h2>
+<a href="/my_profile">Go Back</a>
+<form action="/api/edit_profile/post" method="PSOT">
+<button type="submit">Save</button>
+<h3>General Info</h3>
+
+<ul>
+    <li>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+    </li>
+    <li>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age">
+    </li>
+    <li>
+        <label for="height">Height:</label>
+        <input type="text" name="height" id="height">
+    </li>
+    <li>
+        <label for="weight">Weight:</label>
+        <input type="number" name="weight" id="weight">
+    </li>
+    <li>
+        <label for="home_region">Home Region:</label>
+        <input type="text" name="home_region" id="home_region">
+    </li>
+    <li>
+        <label for="total_xp">Total XP:</label>
+        <input type="text" name="total_xp" id="total_xp">
+    </li>
+    <li>
+        <label for="time_units">Time Units:</label>
+        <input type="text" name="time_units" id="time_units">
+    </li>
+    <li>
+        <label for="species">Species:</label>
+        <input type="text" name="species" id="species">
+    </li>
+    <li>
+        <label for="core_concept">Core Concept:</label>
+        <input type="" name="core_concept" id="core_concept">
+    </li>
+</ul>
+<br>
+<label for="essence_pool">Essence Pool:</label>
+<input type="number" name="essence_pool_1" id="essence_pool_1"> &#47; <input type="number" name="essence_pool_2" id="essence_pool_2">
+<br>
+<br>
+<label for="hit_points">Hit Points:</label>
+<input type="number" name="hit_points_1" id="hit_points_1"> &#47; <input type="number" name="hit_points_2" id="hit_points_2">
+
+<h3>Attributes</h3>
+
+<label for="strength">Strength:</label>
+<input type="radio" name="strength" id="strength" value="1"><label for="strength">1</label>
+<input type="radio" name="strength" id="strength" value="2"><label for="strength">2</label>
+<input type="radio" name="strength" id="strength" value="3"><label for="strength">3</label>
+<input type="radio" name="strength" id="strength" value="4"><label for="strength">4</label>
+<input type="radio" name="strength" id="strength" value="5"><label for="strength">5</label>
+<br>
+<label for="dexterity">Dexterity:</label>
+<input type="radio" name="dexterity" id="dexterity"><label for="dexterity">1</label>
+<input type="radio" name="dexterity" id="dexterity"><label for="dexterity">2</label>
+<input type="radio" name="dexterity" id="dexterity"><label for="dexterity">3</label>
+<input type="radio" name="dexterity" id="dexterity"><label for="dexterity">4</label>
+<input type="radio" name="dexterity" id="dexterity"><label for="dexterity">5</label>
+<br>
+<label for="willpower">Willpower:</label>
+<input type="radio" name="willpower" id="willpower"><label for="willpower">1</label>
+<input type="radio" name="willpower" id="willpower"><label for="willpower">2</label>
+<input type="radio" name="willpower" id="willpower"><label for="willpower">3</label>
+<input type="radio" name="willpower" id="willpower"><label for="willpower">4</label>
+<input type="radio" name="willpower" id="willpower"><label for="willpower">5</label>
+<br>
+<label for="insight">Insight:</label>
+<input type="radio" name="insight" id="insight"><label for="insight">1</label>
+<input type="radio" name="insight" id="insight"><label for="insight">2</label>
+<input type="radio" name="insight" id="insight"><label for="insight">3</label>
+<input type="radio" name="insight" id="insight"><label for="insight">4</label>
+<input type="radio" name="insight" id="insight"><label for="insight">5</label>
+<br>
+<label for="cunning">Cunning:</label>
+<input type="radio" name="cunning" id="cunning"><label for="cunning">1</label>
+<input type="radio" name="cunning" id="cunning"><label for="cunning">2</label>
+<input type="radio" name="cunning" id="cunning"><label for="cunning">3</label>
+<input type="radio" name="cunning" id="cunning"><label for="cunning">4</label>
+<input type="radio" name="cunning" id="cunning"><label for="cunning">5</label>
+<br>
+
+<h3>Skills</h3>
+
+        
+<ul>
+    <li>
+        <label for="skill">Skill:</label>
+        <input type="text" name="skill" id="skill">
+        <p>Add Skill <i id="skillAdd" class="fas fa-plus-circle"></i></p>
+    </li>
+</ul>
+        
+
+<h3>Unique Traits</h3>
+
+<label for="trait">Trait:</label>
+<textarea name="trait" id="trait" cols="30" rows="10"></textarea>
+
+<h3>Attunements | Level</h3>
+
+<label for="attunements">Attunement:</label>
+<input type="text" name="attunements" id="attunements"> &#124; <input type="number" name="lvl" id="lvl">
+
+<h3>Talents And Traits</h3>
+
+<textarea name="talents_traits" id="talents_traits" cols="40" rows="15"></textarea>
+<h3>Languages</h3>
+<input type="text" name="languages" id="languages">
+<h3>Goal(s)</h3>
+<textarea name="goals" id="goals" cols="40" rows="15"></textarea>
+
+<h3>Equipment</h3>
+
+<ul>
+    <li>
+        <input type="text" name="equipment" id="equipment">
+    </li>
+</ul>
+
+<h3>Spells &#38; Maneuvers</h3>
+
+<ul>
+    <li>
+        <input type="text" name="spells_maneuvers" id="spells_maneuvers">
+    </li>
+</ul>
+<button type="submit">Save</button>
+</form>

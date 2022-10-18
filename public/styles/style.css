@@ -1,0 +1,26 @@
+body {
+    background-color: hsl(182, 60%, 27%);
+}
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.nav-item {
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 1em;
+    width: 150px;
+    text-align: center;
+}
+.nav-item:hover {
+    background-color: hsl(147, 71%, 44%);
+}
+
+#skillAdd:hover {
+    cursor: pointer;    
+}
